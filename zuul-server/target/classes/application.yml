@@ -1,0 +1,14 @@
+ribbon:
+  eureka:
+    enabled: true
+zuul:
+  routes:
+    myapp1:
+      path: /test-controller/**
+      serviceId: myApp1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ['*']
