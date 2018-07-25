@@ -41,7 +41,7 @@ Install the JDK 8 and MVN correctly and set the required environment variables o
 
 ##### Build the application
 
-Inside the "samplemicroservice" folder has a .pom file. Get into this folder and type the command 'mvn clear install".
+Inside the "samplezuulservice" folder has a .pom file. Get into this folder and type the command 'mvn clear install".
 This is a maven command that make the maven download all the library necessary to run the program (you need to be connected on the internet in order to work).
 
 After successfully executing the mvn command, it should have created a folder named "target" in every application. Inside the folder there will be a ".jar" file.
